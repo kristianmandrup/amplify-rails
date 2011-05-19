@@ -15,14 +15,15 @@ Jeweler::Tasks.new do |gem|
   gem.name = "amplify-rails"
   gem.homepage = "http://github.com/kristianmandrup/amplify-rails"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Installs Amplify.js in Rails 3 app}
+  gem.description = %Q{Installs and configures Amplify.js for use in your Rails 3 app}
   gem.email = "kmandrup@gmail.com"
   gem.authors = ["Kristian Mandrup"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-  #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
-  #  gem.add_development_dependency 'rspec', '> 1.2.3'
+
+  gem.add_runtime_dependency      'rails', '> 3'
+  gem.add_development_dependency  'rspec', '> 2.5'
 end
 Jeweler::RubygemsDotOrgTasks.new
 
