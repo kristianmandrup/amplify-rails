@@ -15,7 +15,7 @@ Jeweler::Tasks.new do |gem|
   gem.name = "amplify-rails"
   gem.homepage = "http://github.com/kristianmandrup/amplify-rails"
   gem.license = "MIT"
-  gem.summary = %Q{Installs Amplify.js in Rails 3 app}
+  gem.summary = %Q{Installs Amplify.js into your Rails 3 app}
   gem.description = %Q{Installs and configures Amplify.js for use in your Rails 3 app}
   gem.email = "kmandrup@gmail.com"
   gem.authors = ["Kristian Mandrup"]
